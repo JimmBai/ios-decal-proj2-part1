@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		381788BF1E77BB52003F67D2 /* postTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381788BE1E77BB52003F67D2 /* postTableViewCell.swift */; };
+		381788C11E77BCE2003F67D2 /* postViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381788C01E77BCE2003F67D2 /* postViewController.swift */; };
+		381788C31E77EC14003F67D2 /* imageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381788C21E77EC14003F67D2 /* imageTableViewCell.swift */; };
+		381788C71E77F2EA003F67D2 /* imageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381788C61E77F2EA003F67D2 /* imageViewController.swift */; };
+		381788C91E780AC0003F67D2 /* showPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381788C81E780AC0003F67D2 /* showPhotoViewController.swift */; };
 		417986C31E6631020050E1DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 417986C21E6631020050E1DF /* Assets.xcassets */; };
 		417986C51E6632C40050E1DF /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417986C41E6632C40050E1DF /* TabBarController.swift */; };
 		417986C91E664AE40050E1DF /* imageCollectionVieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417986C81E664AE40050E1DF /* imageCollectionVieCell.swift */; };
@@ -20,6 +25,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		381788BE1E77BB52003F67D2 /* postTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postTableViewCell.swift; sourceTree = "<group>"; };
+		381788C01E77BCE2003F67D2 /* postViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postViewController.swift; sourceTree = "<group>"; };
+		381788C21E77EC14003F67D2 /* imageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageTableViewCell.swift; sourceTree = "<group>"; };
+		381788C61E77F2EA003F67D2 /* imageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageViewController.swift; sourceTree = "<group>"; };
+		381788C81E780AC0003F67D2 /* showPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showPhotoViewController.swift; sourceTree = "<group>"; };
 		417986C21E6631020050E1DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		417986C41E6632C40050E1DF /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		417986C81E664AE40050E1DF /* imageCollectionVieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageCollectionVieCell.swift; sourceTree = "<group>"; };
@@ -66,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				417986C81E664AE40050E1DF /* imageCollectionVieCell.swift */,
+				381788BE1E77BB52003F67D2 /* postTableViewCell.swift */,
+				381788C21E77EC14003F67D2 /* imageTableViewCell.swift */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -77,6 +89,9 @@
 				4196F2EC1E6609B0009916E4 /* PostNavigationController.swift */,
 				417986CE1E6657650050E1DF /* Cells */,
 				4196F2E21E6514EE009916E4 /* ImagePickerController.swift */,
+				381788C01E77BCE2003F67D2 /* postViewController.swift */,
+				381788C61E77F2EA003F67D2 /* imageViewController.swift */,
+				381788C81E780AC0003F67D2 /* showPhotoViewController.swift */,
 			);
 			name = "View Controller";
 			sourceTree = "<group>";
@@ -183,10 +198,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				381788C71E77F2EA003F67D2 /* imageViewController.swift in Sources */,
 				417986CB1E664CB60050E1DF /* ImageFlowLayout.swift in Sources */,
 				4196F2E31E6514EE009916E4 /* ImagePickerController.swift in Sources */,
 				417986C51E6632C40050E1DF /* TabBarController.swift in Sources */,
+				381788BF1E77BB52003F67D2 /* postTableViewCell.swift in Sources */,
 				417986C91E664AE40050E1DF /* imageCollectionVieCell.swift in Sources */,
+				381788C91E780AC0003F67D2 /* showPhotoViewController.swift in Sources */,
+				381788C31E77EC14003F67D2 /* imageTableViewCell.swift in Sources */,
+				381788C11E77BCE2003F67D2 /* postViewController.swift in Sources */,
 				4196F2DD1E650ECA009916E4 /* ImageFeed.swift in Sources */,
 				4196F2CB1E6509E8009916E4 /* AppDelegate.swift in Sources */,
 				4196F2ED1E6609B0009916E4 /* PostNavigationController.swift in Sources */,
