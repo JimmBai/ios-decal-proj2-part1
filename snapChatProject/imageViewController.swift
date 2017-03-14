@@ -36,6 +36,10 @@ class imageViewController: UIViewController, UITableViewDelegate, UITableViewDat
         sender.endRefreshing()
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        imageTable.reloadData()
+    }
+    
     func numberOfSections(in tableView: UITableView) -> Int {
         return threadNames.count
     }

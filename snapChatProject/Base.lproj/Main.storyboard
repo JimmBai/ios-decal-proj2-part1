@@ -47,10 +47,10 @@
             </objects>
             <point key="canvasLocation" x="-484" y="-448"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Post Navigation Controller-->
         <scene sceneID="98k-bM-ljV">
             <objects>
-                <navigationController id="Abk-ht-bTk" sceneMemberID="viewController">
+                <navigationController id="Abk-ht-bTk" customClass="PostNavigationController" customModule="snapChatProject" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="feed" id="Z4o-NL-6x6"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="JnD-7J-j0V">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -67,7 +67,7 @@
         <!--Image View Controller-->
         <scene sceneID="6lf-UE-yC4">
             <objects>
-                <viewController id="RQC-JN-bfa" customClass="imageViewController" customModule="snapChatProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="RQC-JN-bfa" userLabel="Image View Controller" customClass="imageViewController" customModule="snapChatProject" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="J4E-4u-8E7"/>
                         <viewControllerLayoutGuide type="bottom" id="Z9y-oG-2AH"/>
@@ -85,7 +85,7 @@
                                         <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kup-mM-kDO" id="acc-Yq-kTJ">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yhb-hE-RU6">
@@ -134,7 +134,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="FtS-cx-uCl"/>
+                    <navigationItem key="navigationItem" title="Snapchat 2.0" id="5hm-qD-8g6"/>
                     <connections>
                         <outlet property="imageTable" destination="F1F-ie-XJJ" id="azv-c4-Sd6"/>
                         <segue destination="jvg-PF-JCl" kind="show" identifier="cellToImageDisplay" id="M3d-Ye-4YB"/>
@@ -142,7 +142,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rvR-F3-o2U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-834.78260869565224" y="488.31521739130437"/>
+            <point key="canvasLocation" x="-830" y="522"/>
         </scene>
         <!--Show Photo View Controller-->
         <scene sceneID="1sB-xX-41Q">
@@ -265,7 +265,7 @@
                                         <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mUD-o4-ENl" id="QL4-RJ-9S1">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C1v-6j-ACY">

@@ -32,9 +32,10 @@ class showPhotoViewController: UIViewController {
     
     func imageTapped(tapGestureRecognizer: UITapGestureRecognizer)
     {
+        _ = self.navigationController?.popViewController(animated: true)
         self.navigationController?.isNavigationBarHidden = false
         self.tabBarController?.tabBar.isHidden = false
-        _ = self.navigationController?.popViewController(animated: true)
+        self.navigationController?.viewDidAppear(false)
     }
 
  
